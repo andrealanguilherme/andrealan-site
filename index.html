@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ANDREALAN</title>
-    <script>
-        window.location.href = 'https://script.google.com/macros/s/AKfycbwMOM2GeaWg8o53JUKc054iCqwvxz9X2EABn4ZnQuypOjgh16bmHcdK9LgAaeWf_cQ/exec';
-    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚚 ANDREALAN</title>
+    <style>
+        body { font-family: Arial; padding: 20px; text-align: center; background: #f5f5f5; }
+        .container { background: white; padding: 30px; border-radius: 10px; max-width: 500px; margin: 0 auto; }
+        .btn { background: #003366; color: white; padding: 15px; border: none; border-radius: 5px; margin: 10px; display: block; }
+        .instruction { background: #fff3cd; padding: 15px; border-radius: 5px; margin: 15px 0; text-align: left; }
+    </style>
 </head>
 <body>
-    <p>Redirecionando para ANDREALAN...</p>
+    <div class="container">
+        <h1>🚚 ANDREALAN</h1>
+        <p>Sistema de Encerramento</p>
+        
+        <div class="instruction">
+            <strong>📱 INSTRUÇÕES PARA CELULAR:</strong><br>
+            1. Clique no botão abaixo<br>
+            2. Se aparecer aviso, clique em "Avançado"<br>
+            3. Depois em "Continuar para o site"
+        </div>
+        
+        <button class="btn" onclick="openSystem()">ABRIR SISTEMA</button>
+        
+        <p><small>Se não funcionar, use o Firefox ou Samsung Internet</small></p>
+    </div>
+
+    <script>
+        function openSystem() {
+            const url = 'https://script.google.com/macros/s/AKfycbwMOM2GeaWg8o53JUKc054iCqwvxz9X2EABn4ZnQuypOjgh16bmHcdK9LgAaeWf_cQ/exec';
+            window.open(url, '_blank');
+        }
+        
+        // Tenta abrir automaticamente
+        setTimeout(openSystem, 1000);
+    </script>
 </body>
 </html>
